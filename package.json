@@ -1,0 +1,24 @@
+{
+  "name": "blackyak",
+  "version": "1.0.0",
+  "description": "Takies game of black jack",
+  "main": "dist/blackYak.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "annyang": "^2.6.0",
+    "hearts": "^1.0.1",
+    "howler": "^2.0.8",
+    "systemjs": "^0.20.19"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  }
+}
